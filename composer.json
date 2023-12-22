@@ -1,0 +1,22 @@
+{
+    "name": "imap/pro",
+    "description": "Imap客户端，可支持爬取邮箱简历等功能",
+    "authors": [
+        {
+            "name": "wanggaoyang",
+            "email": "836259740@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-imap": "*",
+        "ext-openssl": "*",
+        "ext-mbstring": "*",
+        "ext-iconv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imap\\Pro\\": "src/"
+        }
+    }
+}
