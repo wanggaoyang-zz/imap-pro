@@ -9,6 +9,8 @@ composer require php-pro/imap
 $example = new Example();
 $day = -1;  //过去一套的
 $example->pull('账户','密码', $day);
+
+Example类是个使用示例，可以粘贴到自己业务项目中使用
 ```
 ### 错误方案
 ```
